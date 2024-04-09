@@ -59,6 +59,7 @@ app.post("/register", async (req, res) => {
             res.render("registrar.ejs", {
                 incorrectPassword: incorrectPassword,
             });
+            console.log("logado");
         }
     }
 });
